@@ -136,7 +136,7 @@ class ChannelListCore extends StatefulWidget {
 /// The current state of the [ChannelListCore].
 class ChannelListCoreState extends State<ChannelListCore> {
   @override
-  Widget build(BuildContext context) {
+  Widget buil(BuildContext context) {
     final channelsBloc = ChannelsBloc.of(context);
 
     return _buildListView(channelsBloc);
